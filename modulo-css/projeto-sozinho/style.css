@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+header a {
+    color:#989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    line-height: 29px;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color:#665AE1;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 130px;
+    height: 41px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-top: 144px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.text-main {
+    display: inline-block;
+    margin-left: 86px;
+    position: absolute;
+    top: 217px;
+}
+
+h1 {
+    color: #515151;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    margin-bottom: 32px;
+    color: #515151;
+}
+
+p {
+    width: 500px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-bottom: 65px;
+}
+
+.btn-explore {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background-color:#ADFF00;
+    width: 239px;
+    height: 64px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    
+    main {
+        display: block;
+        height: 100vh;
+    }
+
+    header  {
+        display: none;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        display: block;
+        position: static;
+        margin: 149px 20px 0;
+    }
+
+    .text-main {
+        display: block;
+        margin-top: 260px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        top: 419px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    p {
+        display: none;
+    }
+}

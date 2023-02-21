@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: 47px;
+    margin-right: 36px;
+    margin-left: 42px;
+
+}
+
+.header-nav a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;  
+    text-align: center;
+    margin-right: 36px;
+    letter-spacing: 0.875px;
+    text-decoration: none;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.header-nav  button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    Width: 124px;
+    Height:51px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.main-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-top: 246px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+.main-div {
+    display: inline-block;
+    position: absolute;
+    margin-left: 86px;
+}
+
+.main-div h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    margin-top: 300px;
+    margin-bottom: 47px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+.main-div p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+.main-div a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    
+    main {
+        margin: 0;
+    }
+    
+    .main-div {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        margin: 0;
+    }
+
+    .header-nav {
+        align-items: end;
+    }
+    
+    .header-nav a {
+        display: none;
+    }
+
+    .header-nav button {
+        align-items: end;
+    }
+
+
+    .main-div h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 124px 55px 29px;
+        text-align: center;
+    }
+    
+    .main-div p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin: 0 43px 26px;
+        width: 304px;
+        height: 165px;
+    }
+
+    .main-div a {
+        margin-left: 35%;
+    }
+
+
+    .main-logo {
+        display: block;
+        width: 312px;
+        height: 288px;
+        margin: auto;
+    }
+}
